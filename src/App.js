@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
+import { HeroSection } from "./component/HeroSection/HeroSection.component";
 
 function App() {
-  return <div className="App">Hello World</div>;
+  return (
+    <div>
+      <HeroSection />
+    </div>
+  );
 }
 
 export default App;
